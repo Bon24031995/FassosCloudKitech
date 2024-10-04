@@ -1,0 +1,35 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .carousel-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .carousel-btn:hover {
+    background-color: #444;
+  }
+  
+  .carousel-items {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .carousel-item {
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
